@@ -29,3 +29,23 @@ Git est un système de contrôle de version utilisé en programmation. Il permet
 - .gitignore : Spécifie les fichiers à ignorer en les répertoriant dans ce fichier.
 
 ## Système de branches
+
+- Annuler les changements : git restore .
+
+- Nettoyer les fichiers qui ne sont pas suivi : git clean -f
+
+- Modifier le dernier commit : git commit --amend
+
+- Réinitialiser à un commit spécifique : git reset <idcommit>
+
+- Lister les branches : git branch
+
+- Créer et changer de branche : git checkout -b <nomdebranche>; git checkout <nomdebranche>
+
+- Fusionner une branche : git merge <nom_branche>
+
+- Supprimer une branche : git branch -D <nombranche>
+
+- Stocker les changements : git stash
+
+- Récupérer les changements stockés : git stash pop
