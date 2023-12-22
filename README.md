@@ -4,7 +4,17 @@
 
 Git est un système de contrôle de version utilisé en programmation. Il permet aux développeurs de suivre et de gérer les changements dans leur code, pour faciliter la collaboration sur des projets complexes. Il va donc permettre de limiter les erreurs grâves et de pouvoir retourner en arrière. Il va aussi permettre de se partager des nouvelles versions plus facilement.
 
+## Installation de git
+
+Pour Linux : `sudo apt install git-all`
+
+Pour Windows: Aller sur https://git-scm.com/download/win puis installer git 
+
+Pour MacOS: Aller sur https://git-scm.com/download/mac puis suivre les instructions pour votre gestionnaire de paquets
+
 ## Commandes de bases
+
+Les commandes de base de git peuvent être executé dans, plus ou moins cet ordre :
 
 - `git init` : Démarre un nouveau dépôt Git dans le répertoire courant.
 
